@@ -5,6 +5,7 @@ import FeedbackForm from './FeedbackForm'
 import Navbar from '../components/Navbar'
 import UserDashboard from './UserDashboard'
 import Clients from './Clients'
+import Features from './Features'
 
 export default function Layout() {
   return (
@@ -12,6 +13,7 @@ export default function Layout() {
     <Navbar />
     <Home />
     <Clients />
+    <Features />
     {/* <Router>
       <Navbar />
         <Routes>

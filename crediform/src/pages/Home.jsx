@@ -148,11 +148,11 @@ import React from 'react'
 
 export default function Home() {
   return (
-    <div className='bg-black text-white bg-[linear-gradient(to_bottom,#000,#200D42_34%,#4F21A1_65%,#A46EDB_82%)] py-[72px] sm:py-24 relative overflow-clip'>
-      <div className='absolute h-[375px] w-[750px] sm:w-[1536px] sm:h-[768px] lg:w-[2400px] lg:h-[1200px] rounded-[100%] bg-black left-1/2 -translate-x-1/2 border-[#B48CDE] bg-[radial-gradient(closest-side,#000_82%,#9560EB)] top-[calc(100%-98px)] sm:top-[calc(100%-120px)]'>
+    <div className='bg-black text-white bg-[linear-gradient(to_bottom,#000,#14532D_34%,#22C55E_65%,#A7F3D0_82%)] py-[72px] sm:py-24 relative overflow-clip'>
+      <div className='absolute h-[375px] w-[750px] sm:w-[1536px] sm:h-[768px] lg:w-[2400px] lg:h-[1200px] rounded-[100%] bg-black left-1/2 -translate-x-1/2 border-[#78C68F] bg-[radial-gradient(closest-side,#000_82%,#34D399)] top-[calc(100%-98px)] sm:top-[calc(100%-120px)]'>
       </div>
       <div className="container relative">
-        <h1 className='text-7xl font-bold text-center tracking-tighter mt-8'>Elevate Your Brand with Authentic Testimonials</h1>
+        <h1 className='text-7xl font-bold text-center tracking-tighter mt-8'>Get testimonials from your customers with ease</h1>
         <p className='text-xl mt-8 leading-8 text-center'>In today’s digital world, trust is everything. Our easy-to-use testimonial generator empowers creators and organizations to collect, manage, and showcase authentic feedback from their audience. Whether you’re a small business, an influencer, or a large organization, we’ve got the tools to enhance your credibility and drive engagement</p>
         <div className='flex justify-center'>
           <button className='text-black bg-white rounded-md px-5 py-3 mt-[35px] font-medium'>Get started</button>
