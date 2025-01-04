@@ -25,8 +25,8 @@ import React from 'react'
 export default function Navbar() {
   return (
     <header className='bg-black text-white'>
-      <div className='flex justify-center items-center gap-2 bg-white py-3 text-black text-sm'>
-        <p className='text-black/60'>Elevate Your Brand with Authentic Testimonials</p>
+      <div className='flex justify-center items-center gap-2 bg-[#22C55E] py-3 text-white text-sm font-medium'>
+        <p className='text-black'>Elevate Your Brand with Authentic Testimonials</p>
         <p>Get started for free</p>
       </div>
       <div className='py-5'>

@@ -152,7 +152,7 @@ export default function Home() {
       <div className='absolute h-[375px] w-[750px] sm:w-[1536px] sm:h-[768px] lg:w-[2400px] lg:h-[1200px] rounded-[100%] bg-black left-1/2 -translate-x-1/2 border-[#78C68F] bg-[radial-gradient(closest-side,#000_82%,#34D399)] top-[calc(100%-98px)] sm:top-[calc(100%-120px)]'>
       </div>
       <div className="container relative">
-        <h1 className='text-7xl font-bold text-center tracking-tighter mt-8'>Get testimonials from your customers with ease</h1>
+        <h1 className='text-7xl font-medium text-center text-white/90 tracking-tighter mt-8'>Get testimonials from your customers with ease</h1>
         <p className='text-xl mt-8 leading-8 text-center'>In today’s digital world, trust is everything. Our easy-to-use testimonial generator empowers creators and organizations to collect, manage, and showcase authentic feedback from their audience. Whether you’re a small business, an influencer, or a large organization, we’ve got the tools to enhance your credibility and drive engagement</p>
         <div className='flex justify-center'>
           <button className='text-black bg-white rounded-md px-5 py-3 mt-[35px] font-medium'>Get started</button>
