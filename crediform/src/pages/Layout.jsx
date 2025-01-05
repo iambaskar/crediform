@@ -6,22 +6,25 @@ import Navbar from '../components/Navbar'
 import UserDashboard from './UserDashboard'
 import Clients from './Clients'
 import Features from './Features'
+import Features2 from './Features2'
+import LandingPage from './LandingPage'
 
 export default function Layout() {
   return (
     <>
-    <Navbar />
-    <Home />
+      {/* <Navbar /> */}
+      {/* <Home />
     <Clients />
-    <Features />
-    {/* <Router>
-      <Navbar />
+    <Features2 />
+    <Features /> */}
+      <Router>
+        {/* <Navbar /> */}
         <Routes>
-          <Route path="/" element={<Home />} />
+          <Route path="/" element={<LandingPage />} />
           <Route path='/user-dashboard' element={<UserDashboard />} />
-          <Route path='/feedback-form/:id'  element={<FeedbackForm />} />
+          <Route path='/feedback-form/:id' element={<FeedbackForm />} />
         </Routes>
-    </Router> */}
+      </Router>
     </>
   )
 }

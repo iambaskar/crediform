@@ -21,6 +21,7 @@
 
 
 import React from 'react'
+import Auth from './Auth'
 
 export default function Navbar() {
   return (
@@ -28,15 +29,16 @@ export default function Navbar() {
       <div className='flex justify-center items-center gap-2 bg-[#22C55E] py-3 text-white text-sm font-medium'>
         <p className='text-black'>Elevate Your Brand with Authentic Testimonials</p>
         <p>Get started for free</p>
+        {/* <Auth /> */}
       </div>
       <div className='py-5'>
         <div className="container">
           <div className='flex justify-between items-center'>
             <p className='text-lg font-semibold'>Crediform</p>
             <nav className='flex gap-6 items-center text-white/60'>
-              <a href="#">Home</a>
+              {/* <a href="#">Home</a> */}
               <a href="#">Features</a>
-              <a href="#">Components</a>
+              <a href="#">Testimonials</a>
               <a href="#">Help</a>
               <button className='px-4 py-2 bg-white text-black text-sm rounded-md font-medium'>Get started</button>
             </nav>
