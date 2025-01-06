@@ -5,15 +5,15 @@ import { LuHeartHandshake } from "react-icons/lu";
 
 export default function Features2() {
     return (
-        <div className='bg-black text-white py-[60px]'>
+        <div className='bg-black text-white py-[120px]'>
             <div className="container">
                 <div className='w-full flex justify-center'>
                     <div className='w-[60%] text-center'>
-                        <p className='text-5xl tracking-tighter white/90 font-medium'>Collect and display testimonials all in one solution</p>
+                        <p className='text-5xl tracking-tighter text-white/90 font-medium'>Collect and display testimonials all in one solution</p>
                         <p className='mt-4 text-white/50'>Start your free trial now and see how easy it is to track, manage, and optimize your time. Start your free trial now and see how easy it is to track.</p>
                     </div>
                 </div>
-                <div className='flex py-[70px]'>
+                <div className='flex mt-[120px]'>
                     <div className='bg-gradient-to-b from-green-950 to-transparent p-10 rounded-s-3xl border-r border-neutral-900'>
                         <div className='outline outline-offset-2 outline-2 outline-green-600 w-[40px] h-[40px] flex justify-center items-center border-neutral-900 rounded-[50%]'>
                             <FiCodesandbox size={30} />

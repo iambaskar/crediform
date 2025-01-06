@@ -25,7 +25,7 @@ export default function Features() {
     ];
 
     return (
-        <div className='bg-black text-white py-[60px] relative'>
+        <div className='bg-black text-white py-[120px] relative'>
             <div className="container">
                 <div className='flex gap-6'>
                     <div className='w-[50%] px-10'>
