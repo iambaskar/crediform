@@ -8,6 +8,9 @@ import Clients from './Clients'
 import Features from './Features'
 import Features2 from './Features2'
 import LandingPage from './LandingPage'
+import Overview from '../components/Overview'
+import Testimonials from '../components/Testimonials'
+import Profile from '../components/Profile'
 
 export default function Layout() {
   return (
@@ -21,7 +24,12 @@ export default function Layout() {
         {/* <Navbar /> */}
         <Routes>
           <Route path="/" element={<LandingPage />} />
-          <Route path='/user-dashboard' element={<UserDashboard />} />
+          <Route path='/dashboard' element={<UserDashboard />}>
+            <Route index element={<Overview />} />
+            <Route path='overview' element={<Overview />} />
+            <Route path='testimonials' element={<Testimonials />} />
+            <Route path='profile' element={<Profile />} />
+          </Route>
           <Route path='/feedback-form/:id' element={<FeedbackForm />} />
         </Routes>
       </Router>

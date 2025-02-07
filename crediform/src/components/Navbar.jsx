@@ -22,8 +22,9 @@
 
 import React from 'react'
 import Auth from './Auth'
-
+import { useNavigate } from 'react-router-dom';
 export default function Navbar() {
+  const navigate = useNavigate();
   return (
     <header className='bg-black text-white'>
       <div className='flex justify-center items-center gap-2 bg-[#22C55E] py-3 text-white text-sm font-medium'>
@@ -40,7 +41,7 @@ export default function Navbar() {
               <a href="#">Features</a>
               <a href="#">Testimonials</a>
               <a href="#">Help</a>
-              <button className='px-4 py-2 bg-white text-black text-sm rounded-md font-medium'>Get started</button>
+              <button className='px-4 py-2 bg-white text-black text-sm rounded-md font-medium' onClick={() => navigate('dashboard')}>Get started</button>
             </nav>
           </div>
         </div>
