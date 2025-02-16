@@ -1,10 +1,18 @@
-import React from 'react'
+import React, { useState } from 'react'
 
 export default function DashboardTopbar() {
+  const [openForm, setOpenForm] = useState(false);
   return (
-    <div className='flex justify-between'>
+    <>
+      <div className='flex justify-between'>
         <input type='text' placeholder='Search' className='w-[400px] py-2 px-4 rounded-md border-black-300 border text-sm font-normal' />
         <button className='bg-[#34D399] py-2 px-8 rounded-md text-sm font-medium'>Create</button>
-    </div>
+      </div>
+      {/* <div className='bg-black bg-opacity-50 absolute inset-0 flex justify-center items-center'>
+        <div className='bg-white max-w-md mx-auto'>
+          <p>modal</p>
+        </div>
+      </div> */}
+    </>
   )
 }

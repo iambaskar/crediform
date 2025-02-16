@@ -11,6 +11,7 @@ import LandingPage from './LandingPage'
 import Overview from '../components/Overview'
 import Testimonials from '../components/Testimonials'
 import Profile from '../components/Profile'
+import CreateForm from './CreateForm'
 
 export default function Layout() {
   return (
@@ -31,6 +32,7 @@ export default function Layout() {
             <Route path='profile' element={<Profile />} />
           </Route>
           <Route path='/feedback-form/:id' element={<FeedbackForm />} />
+          <Route path='/create-form' element={<CreateForm />} />
         </Routes>
       </Router>
     </>
